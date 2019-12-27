@@ -1,11 +1,11 @@
 <?php
-namespace IEXBase\RippleAPI;
+namespace MaxMadKnight\RippleAPI;
 
-use IEXBase\RippleAPI\Objects\AccountObject;
-use IEXBase\RippleAPI\Objects\PaymentObject;
-use IEXBase\RippleAPI\Objects\SignObject;
-use IEXBase\RippleAPI\Objects\TransactionObject;
-use IEXBase\RippleAPI\Transaction\TransactionBuilder;
+use MaxMadKnight\RippleAPI\Objects\AccountObject;
+use MaxMadKnight\RippleAPI\Objects\PaymentObject;
+use MaxMadKnight\RippleAPI\Objects\SignObject;
+use MaxMadKnight\RippleAPI\Objects\TransactionObject;
+use MaxMadKnight\RippleAPI\Transaction\TransactionBuilder;
 
 class Ripple
 {

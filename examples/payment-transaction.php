@@ -1,7 +1,7 @@
 <?php
 
-use IEXBase\RippleAPI\Contracts\TransactionBuilderContract;
-use IEXBase\RippleAPI\Support\TransactionType;
+use MaxMadKnight\RippleAPI\Contracts\TransactionBuilderContract;
+use MaxMadKnight\RippleAPI\Support\TransactionType;
 
 include_once '../vendor/autoload.php';
 
@@ -9,7 +9,7 @@ $address = "";
 $secretKey = "";
 
 
-$ripple = new \IEXBase\RippleAPI\Ripple($address, $secretKey);
+$ripple = new \MaxMadKnight\RippleAPI\Ripple($address, $secretKey);
 
 try {
     $transfer = $ripple->buildTransaction(function (TransactionBuilderContract $item)

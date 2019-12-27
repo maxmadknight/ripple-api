@@ -2,6 +2,6 @@
 include_once '../vendor/autoload.php';
 
 $address = "";
-$ripple = new \IEXBase\RippleAPI\Ripple($address);
+$ripple = new \MaxMadKnight\RippleAPI\Ripple($address);
 
 dump($ripple->getAccount());

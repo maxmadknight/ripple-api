@@ -1,5 +1,5 @@
 <?php
-namespace IEXBase\RippleAPI\Objects;
+namespace MaxMadKnight\RippleAPI\Objects;
 
 class PaymentSummaryObject extends AbstractObject
 {

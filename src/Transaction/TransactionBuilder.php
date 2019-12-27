@@ -1,8 +1,8 @@
 <?php
-namespace IEXBase\RippleAPI\Transaction;
+namespace MaxMadKnight\RippleAPI\Transaction;
 
-use IEXBase\RippleAPI\Contracts\TransactionBuilderContract;
-use IEXBase\RippleAPI\Support\Arr;
+use MaxMadKnight\RippleAPI\Contracts\TransactionBuilderContract;
+use MaxMadKnight\RippleAPI\Support\Arr;
 
 class TransactionBuilder implements TransactionBuilderContract
 {

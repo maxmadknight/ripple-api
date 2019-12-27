@@ -1,11 +1,11 @@
 <?php
-namespace IEXBase\RippleAPI\Objects;
+namespace MaxMadKnight\RippleAPI\Objects;
 
 class PaymentObject extends AbstractObject
 {
     protected static $objectMap = [
-        'destination_balance_changes'   =>  '\IEXBase\RippleAPI\Objects\BalanceObject',
-        'source_balance_changes'        =>  '\IEXBase\RippleAPI\Objects\BalanceObject'
+        'destination_balance_changes'   =>  '\MaxMadKnight\RippleAPI\Objects\BalanceObject',
+        'source_balance_changes'        =>  '\MaxMadKnight\RippleAPI\Objects\BalanceObject'
     ];
 
     /**

@@ -1,7 +1,7 @@
 <?php
-namespace IEXBase\RippleAPI\Objects;
+namespace MaxMadKnight\RippleAPI\Objects;
 
-use IEXBase\RippleAPI\Support\Collection;
+use MaxMadKnight\RippleAPI\Support\Collection;
 
 abstract class AbstractObject extends Collection
 {

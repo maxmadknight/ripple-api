@@ -1,5 +1,5 @@
 <?php
-namespace IEXBase\RippleAPI\Contracts;
+namespace MaxMadKnight\RippleAPI\Contracts;
 
 
 interface TransactionBuilderContract

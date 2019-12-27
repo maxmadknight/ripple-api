@@ -1,5 +1,5 @@
 <?php
-namespace IEXBase\RippleAPI\Support;
+namespace MaxMadKnight\RippleAPI\Support;
 
 use ArrayAccess;
 use Closure;

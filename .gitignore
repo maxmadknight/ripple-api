@@ -1,2 +1,5 @@
 examples/index.php
 composer.phar
+vendor
+.idea
+composer.lock

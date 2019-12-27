@@ -1,5 +1,5 @@
 <?php
-namespace IEXBase\RippleAPI;
+namespace MaxMadKnight\RippleAPI;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;

@@ -1,5 +1,5 @@
 <?php
-namespace IEXBase\RippleAPI\Exceptions;
+namespace MaxMadKnight\RippleAPI\Exceptions;
 
 class RippleException extends \Exception
 {
