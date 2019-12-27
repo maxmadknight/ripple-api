@@ -22,7 +22,7 @@ curl -sS https://getcomposer.org/installer | php
 Then install the library:
 
 ```bash
-> composer require iexbase/ripple-api
+> composer require maxmadknight/ripple-api
 ```
 
 Additional examples are available in the [examples](examples/) directory 
@@ -48,6 +48,3 @@ dump($ripple->getAccount());
 
 ## More Information
 + [Ripple Developer Center](https://ripple.com/build/)
-
-## Donations
-Ripple: rKhWrsiQpUhcdjH3CkM8feHxcrsjSnEx9m
