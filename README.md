@@ -35,7 +35,7 @@ Use the Ripple
 $address = "";
 $secret_key = "";
 
-$ripple = new \IEXBase\RippleAPI\Ripple($address, $secret_key);
+$ripple = new \MaxMadKnight\RippleAPI\Ripple($address, $secret_key);
 
 dump($ripple->getAccount()); 
 ```
