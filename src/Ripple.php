@@ -455,4 +455,20 @@ class Ripple
             return $result;
         }
     }
+
+    /**
+     * Pull current rate
+     *
+     * @param array         $options
+     * @param string        $counter
+     * @param string        $currency
+     * @param null|string   $address
+     *
+     * @return array
+     */
+    public function getExchangeRates($options, $counter = 'XRP', $currency = 'USD', $address = null)
+    {
+        $address = ($address == null ? $this->address : $address);
+        return $this->call('GET', sprintf('/exchange_rates/%s+%s/%s', $currency, $address, $counter), $options);
+    }
 }
