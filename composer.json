@@ -1,11 +1,11 @@
 {
-    "name": "iexbase/ripple-api",
+    "name": "maxmadknight/ripple-api",
     "description": "A PHP API for interacting with Ripple",
     "license": "MIT",
     "type":   "library",
     "support": {
-        "issues": "https://github.com/iexbase/ripple-api/issues",
-        "source": "https://github.com/iexbase/ripple-api"
+        "issues": "https://github.com/maxmadknight/ripple-api/issues",
+        "source": "https://github.com/maxmadknight/ripple-api"
     },
     "authors": [
         {
@@ -14,7 +14,7 @@
         }
     ],
     "keywords": [
-        "iexbase",
+        "maxmadknight",
         "ripple-lib",
         "ripple-php",
         "ripple-api",
